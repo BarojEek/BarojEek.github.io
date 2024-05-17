@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Pribadi</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+            position: relative;
+        }
+        .profile-small {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            display: flex;
+            align-items: center;
+            background: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .profile-small img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1em;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 1em;
+            display: block;
+        }
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2em auto;
+            padding: 0 1em;
+        }
+        .profile-pic {
+            float: left;
+            margin-right: 2em;
+            border-radius: 50%;
+        }
+        .welcome {
+            margin-bottom: 2em;
+        }
+        .about {
+            background: white;
+            padding: 2em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background: #333;
+            color: white;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile-small">
+            <img src="ketek.jpeg" alt="Foto Profil Kecil">
+            <div>Baroj</div>
+        </div>
+        <h1>Ngapunten Fotone Aneh Nggeeh</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="home" class="welcome">
+            <h2>Sambutan</h2>
+            <p>Halo! Selamat datang di website saya. Di sini Anda dapat mengetahui lebih banyak tentang saya, proyek saya, dan bagaimana menghubungi saya. Saya sangat senang Anda berkunjung!</p>
+        </section>
+        <section id="about" class="about">
+            <h2>Tentang Saya</h2>
+            <img src="ketek.jpeg" alt="Foto Profil" class="profile-pic" width="150" height="150">
+            <p>Nama saya Baroj dan saya seorang Murid Dari sekolah SMP Al-Lathifi. Saya memiliki pengalaman lebih dari 1 tahun di bidang TIK. Saya sangat tertarik dengan Osis dan saya suka berbagi pengetahuan saya dengan orang lain.</p>
+            <p>Di website ini, Anda akan menemukan berbagai artikel, proyek, dan informasi lain yang mungkin berguna bagi Anda. Jangan ragu untuk menjelajah dan menghubungi saya jika Anda memiliki pertanyaan atau ingin bekerja sama.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Website Pribadi. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
+
